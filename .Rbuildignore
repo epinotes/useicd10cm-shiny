@@ -4,3 +4,6 @@
 ^project.*\.tar\.gz$
 ^project.*\.tgz$
 ^LICENSE\.md$
+^useicd10cmShiny\.Rcheck$
+^useicd10cmShiny.*\.tar\.gz$
+^useicd10cmShiny.*\.tgz$

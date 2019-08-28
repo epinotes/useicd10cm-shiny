@@ -6,3 +6,6 @@ misc.R
 project.Rcheck/
 project*.tar.gz
 project*.tgz
+useicd10cmShiny.Rcheck/
+useicd10cmShiny*.tar.gz
+useicd10cmShiny*.tgz
