@@ -26,3 +26,12 @@ runshiny()
 
 ```
 
+## Help   
+
+To get more information on the main function `runshiny()` and get the details of the ICD-10-CM codes used for the drug overdose indicators, run the following line:
+
+``` r
+?runshiny
+
+```
+
