@@ -11,3 +11,5 @@
 runshiny <- function() {
   shiny::shinyApp(ui, server)
 }
+
+
