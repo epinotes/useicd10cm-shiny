@@ -5,7 +5,7 @@
 
 </br>
 The package useicd10cmShiny is to a shiny companion of the package [useicd10cm](https://github.com/epinotes/useicd10cm).
-The application will create seven drug overdose indicators from the uploaded file with ICD 10 CM diagnosis codes.
+The application will create drug overdose indicators from the uploaded file with ICD 10 CM diagnosis codes.
 </br>
 
 ## Installation

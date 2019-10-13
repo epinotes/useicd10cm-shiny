@@ -28,7 +28,9 @@ server <- function(input, output, session) {
   
   
   outputdata10_2 <- shiny::eventReactive(input$submit, {outputdata10() %>%
-      s_drug_opioid(., diag_ecode_col = dxm10())})
+      s_drug_opioid(., diag_ecode_col = dxm10()) %>% 
+      s_drug_opioid_uu(., diag_ecode_col = dxm10()) %>% 
+      s_drug_opioid_ish(., diag_ecode_col = dxm10())})
   
   # outputdata10_2()
   

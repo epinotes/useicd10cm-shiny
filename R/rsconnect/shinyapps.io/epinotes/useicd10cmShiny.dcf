@@ -1,0 +1,13 @@
+name: useicd10cmShiny
+title: useicd10cmShiny
+username:
+account: epinotes
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 1136888
+bundleId: 2378324
+url: https://epinotes.shinyapps.io/useicd10cmShiny/
+when: 1567445361.18086
+asMultiple: FALSE
+asStatic: FALSE
+ignoredFiles: project-package.R
