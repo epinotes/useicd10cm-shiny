@@ -10,10 +10,10 @@ ui <- function()fluidPage(
       fileInput('file10', 'Find the CSV file with ICD-10-CM',
                 accept=c('text/csv', '.csv')),
       
-      radioButtons("od_intent", "OD Intent:",
-                   c("All" = "all",
-                     "Unintentional/Undetermined" = "uu",
-                     "Intentional Self-Harm" = "ish")),
+      # radioButtons("od_intent", "OD Intent:",
+      #              c("All" = "all",
+      #                "Unintentional/Undetermined" = "uu",
+      #                "Intentional Self-Harm" = "ish")),
 
       
       h4('Select the columns with ICD 10 CM to include in the definition'),
