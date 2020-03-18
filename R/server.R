@@ -3,6 +3,13 @@ server <- function(input, output, session) {
   require(dplyr)
   require(purrr)
   
+  # reactive({
+  #   intent_f <- switch(input$od_intent,
+  #                      "all" = s_drug_opioid,
+  #                      "Unintentional/Undetermined" = s_drug_opioid_uu,
+  #                      "Intentional Self-Harm" = s_drug_opioid_ish)  
+  # })
+  
   hosp_data10 <- shiny::reactive({
     
     infile10 <- input$file10
@@ -25,17 +32,11 @@ server <- function(input, output, session) {
     })
   
   dxm10 <- shiny::reactive(1:ncol(outputdata10()))
-  
-  # intent_f <- shiny::eventReactive(switch(input$od_intent,
-  #                all = s_drug_opioid,
-  #                uu = s_drug_opioid_uu,
-  #                ish = s_drug_opioid_ish,
-  #                all))
-  #
+
   
   outputdata10_2 <- shiny::eventReactive(input$submit,
                                         {outputdata10() %>%
-                                            s_drug_opioid(., diag_ecode_col = dxm10()) })
+                                            s_drug_opioid(., diag_ecode_col = dxm10())})
 
   
   output$download10 <- shiny::downloadHandler(

@@ -48,7 +48,7 @@
 #'  AND a 7th character of A or missing
 #'  Then exclude any cases of cocaine as defined above  
 #'  
-#'  
+#'   
 #' @source For more details:  
 #' \url{https://resources.cste.org/Injury-Surveillance-Methods-Toolkit/}  
 #' 

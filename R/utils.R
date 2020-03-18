@@ -218,3 +218,5 @@ s_drug_opioid_ish <- function(data, diag_ecode_col) {
       non_cocaine_stimulant_ish = ifelse(cocaine_ish == 1, 0, non_cocaine_stimulant_ish)
     )
 }
+
+
